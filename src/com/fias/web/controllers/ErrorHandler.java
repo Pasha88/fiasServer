@@ -12,7 +12,7 @@ public class ErrorHandler {
 		ex.printStackTrace();
 		return "error";
 	}
-
+    //MySuperCommentInError
 	@ExceptionHandler(AccessDeniedException.class)
 	public String handleAccessException(AccessDeniedException ex) {
 		return "denied";
